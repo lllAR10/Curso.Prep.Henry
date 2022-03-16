@@ -10,6 +10,15 @@ function deObjetoAmatriz(objeto){
       C: 3
     }) ➞ [["D", 1], ["B", 2], ["C", 3]]*/
   //Escribe tu código aquí
+  //return Object.entries(objeto);
+  var matriz=[];
+  for (const key in objeto) {
+      var array = [];
+      array.push(key);
+      array.push(objeto[key]);
+      matriz.push(array);
+  }
+  return matriz;
 }
 
 
