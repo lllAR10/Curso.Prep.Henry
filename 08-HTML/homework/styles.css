@@ -1,5 +1,5 @@
 h1 {
-    color:gold;
+    color:#F2C166;
 }
 img{
     width: 400px;
@@ -7,9 +7,9 @@ img{
 #thirdDiv{
     height: 600px;
     width: 500px;
-    background-color: brown;
+    background-color: #D9663D;
     padding: 50px;
-    border: 10px solid burlywood;
+    border: 10px solid #F2884B;
 }
 #spanId{
     font-size: 18px;
